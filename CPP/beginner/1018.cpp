@@ -7,16 +7,13 @@ int main() {
     int quantidades[7] = {0};
 
          scanf("%d", &N);
-    
          printf("%d\n", N);
          
     for (i = 0; i < 7; ++i) {
-       
         quantidades[i] = N / cedulas[i];
-        
         N %= cedulas[i];
     }
-        
+   
     for (int i = 0; i < 7; ++i) {
         printf("%d nota(s) de R$ %d,00\n", quantidades[i], cedulas[i]);
     }
