@@ -4,7 +4,7 @@
 
 int main() {
   
-    double A, B, C;
+    double A = 0.0, B = 0.0, C = 0.0;
   
       std::cin >> A >> B >> C; 
 
