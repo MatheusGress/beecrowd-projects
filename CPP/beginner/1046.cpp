@@ -2,7 +2,7 @@
  
 int main() {
  
-    int HourStart = 0, HourEnd, HourTotal = 0;
+    int HourStart = 0, HourEnd = 0, HourTotal = 0;
     
         std::cin >> HourStart >> HourEnd;
     
