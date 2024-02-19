@@ -1,6 +1,7 @@
 #include <iostream>
 
 int main() {
+    
     int HourStart = 0, MinuteStart = 0, HourEnd = 0, MinuteEnd = 0;
     int TotalHours = 0, TotalMinutes = 0;
     
